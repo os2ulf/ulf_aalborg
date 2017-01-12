@@ -1,0 +1,4 @@
+name = Ulf i Aalborg
+version = VERSION
+core = 7.x
+base theme = ulf_default
