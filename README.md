@@ -1,2 +1,2 @@
 # Ulf_aarhus
-This is the custom theme for ulf i Aarhus
+This is the custom theme for ulf i Aalborg
