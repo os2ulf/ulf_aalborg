@@ -1,0 +1,73 @@
+/**
+ * Variables
+ *
+ * Theme specific variables
+ *
+ */
+
+
+
+/* Layout
+   ================================================================================================================== */
+
+$layout-max-width:    1000px;
+$node-breakpoint:     55em; //@todo px
+
+/* Colors
+   ================================================================================================================== */
+$white:            #fff;
+$black:            #000;
+
+$gray-lightest:    lighten($black, 95%);
+$gray-lighter:     lighten($black, 90%);
+$gray-light:       lighten($black, 70%);
+$gray:             lighten($black, 60%);
+$gray-dark:        lighten($black, 50%);
+$gray-darker:      lighten($black, 40%);
+$gray-darkest:     lighten($black, 30%);
+
+$red:              rgb(238, 39, 106);  // Block bg color.
+$turquoise:        rgb(92, 196, 183);
+$blue:             rgb(29, 71, 187);
+$brown:            rgb(187, 150, 11);
+$yellow:           rgb(253, 231, 76);
+$light-blue:       lighten($blue, 20%);  // Block bg color.
+
+$header-color:          rgb(20,6,103);
+$course-color:          $yellow;
+$school-color:          $red;
+$daycare-color:         $turquoise;
+$youth-color:           $blue;
+$profile-color:         $red;
+
+/* Typography
+   ================================================================================================================== */
+
+$font:             14px/1.3 "Asap", sans-serif;
+
+
+/* Link colors
+   ================================================================================================================== */
+
+$link-color:       $turquoise;
+$link-color-hover: darken($link-color, 10%);
+
+
+/* Spacing
+   ================================================================================================================== */
+
+$spacing:          16px;
+
+
+/* Border radius
+   ================================================================================================================== */
+
+$border-radius:    5px;
+
+
+/* Boxlist
+   ================================================================================================================== */
+
+$boxlist-font-color:    #000;
+$boxlist-border-color:  $blue;
+$boxlist-padding:       1em;
