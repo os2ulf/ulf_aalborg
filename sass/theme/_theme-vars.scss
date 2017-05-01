@@ -32,9 +32,10 @@ $blue:             rgb(29, 71, 187);
 $brown:            rgb(187, 150, 11);
 $yellow:           rgb(253, 231, 76);
 $light-blue:       lighten($blue, 20%);  // Block bg color.
+$dark-blue:        #020667;
 
 $header-color:          rgb(20,6,103);
-$course-color:          $yellow;
+$course-color:          $dark-blue;
 $school-color:          $red;
 $daycare-color:         $turquoise;
 $youth-color:           $blue;
