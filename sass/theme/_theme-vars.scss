@@ -26,9 +26,9 @@ $gray-dark:        lighten($black, 50%);
 $gray-darker:      lighten($black, 40%);
 $gray-darkest:     lighten($black, 30%);
 
-$red:              rgb(238, 39, 106);  // Block bg color.
+$red:              rgb(238, 39, 106);
 $turquoise:        rgb(92, 196, 183);
-$blue:             rgb(29, 71, 187);
+$blue:             rgb(29, 71, 187); // Block bg color.
 $brown:            rgb(187, 150, 11);
 $yellow:           rgb(253, 231, 76);
 $light-blue:       lighten($blue, 20%);  // Block bg color.

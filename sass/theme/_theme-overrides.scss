@@ -105,7 +105,7 @@ a {
 
   &--collection-label {
     color: $white;
-    background: $red;
+    background: $gray-darker;
   }
 }
 
@@ -126,7 +126,7 @@ a {
 ================================================================================================================== */
 
 .block--dark {
-  background: $blue;
+  background: $gray-light;
   color: $white;
 
   a {
@@ -135,7 +135,7 @@ a {
 }
 
 .block--light {
-  background: $light-blue;
+  background: $gray-lightest;
 
   a {
     @include strip-link-styles($link-color, underline);
@@ -436,6 +436,13 @@ a {
 .is-ungdomsuddannelse {
   .ribbon {
     @include background-set-color('youth', 1);
+  }
+}
+
+
+.is-course {
+  .ribbon {
+    @include background-set-color('course', 1);
   }
 }
 
