@@ -47,8 +47,8 @@ body {
 }
 
 .print-logo img {
-  width: 20%;
-  padding: 1em; }
+  display: none;
+}
 
 h2 {
   font-size: 1.2em;
