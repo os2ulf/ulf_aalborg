@@ -40,7 +40,11 @@ body {
 
 /* Logo display. */
 .print-logo {
-  background: url("../images/print-header.png"); }
+  background: url(../images/print-header.png) no-repeat center;
+  width: 200px;
+  height: 100px;
+  background-size: 195px;
+}
 
 .print-logo img {
   width: 20%;
