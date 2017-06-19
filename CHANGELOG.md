@@ -1,4 +1,4 @@
-#ULF Aarhus theme changelog
+#ULF Aalborg theme changelog
 
-#v2.3.1
-* Fixed faulty reference of ie9 stylesheet
+#v2.5.0
+* Added aalborg theme
