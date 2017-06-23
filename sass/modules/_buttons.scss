@@ -17,17 +17,17 @@
 %button {
   position: relative;
 
-  border: 1px solid $red;
+  border: 1px solid $turquoise;
   display: inline-block;
   padding: .4em 1.5em;
 
-  background-color: $red;
+  background-color: $turquoise;
   color: $white;
   cursor: pointer;
   font-size: 100%;
   text-align: center;
 
-  @include text-shadow(.025em .025em .1em darken($red, 10%));
+  @include text-shadow(.025em .025em .1em darken($turquoise, 10%));
 
   &:focus,
   &:hover,
@@ -44,15 +44,15 @@
 .button {
   @extend %button;
 
-  background-color: $red;
-  border: 1px solid $red;
+  background-color: $turquoise;
+  border: 1px solid $turquoise;
   color: $white;
 
   @include strip-link-styles($white);
-  @include text-shadow(.025em .025em .1em darken($red, 10%));
+  @include text-shadow(.025em .025em .1em darken($turquoise, 10%));
 
   &:hover {
-    background-color: $red;
+    background-color: $turquoise;
   }
 
   &:link {

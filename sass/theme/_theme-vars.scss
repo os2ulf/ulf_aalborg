@@ -44,10 +44,48 @@ $profile-color:         $red;
 $footer-color: $gray-light;
 $block-color: $gray-lightest;
 
+
+
 /* Typography
    ================================================================================================================== */
 
-$font:             14px/1.3 "Asap", sans-serif;
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-RegularItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-Medium.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-MediumItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic; }
+
+$font:             14px/1.3 'AlrightSans', sans-serif;
 
 
 /* Link colors
@@ -55,6 +93,8 @@ $font:             14px/1.3 "Asap", sans-serif;
 
 $link-color:       $turquoise;
 $link-color-hover: darken($link-color, 10%);
+
+$button-color: $turquoise;
 
 
 /* Spacing

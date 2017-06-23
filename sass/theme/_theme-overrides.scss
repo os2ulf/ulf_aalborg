@@ -11,6 +11,7 @@
 body {
   background: $gray-dark;
   color: #333;
+  font: $font;
 }
 
 
@@ -62,11 +63,11 @@ a {
   .popup-content {
     #popup-buttons {
       button {
-        background: $red;
+        background: $turquoise;
         color: $white;
 
         &:hover {
-          background: $red;
+          background: $turquoise;
         }
       }
     }
@@ -332,6 +333,10 @@ a {
   }
 }
 
+.is-course .search--reset {
+  color: $white;
+}
+
 .search-results {
   &--result {
     @extend %teaser--wrapper;
@@ -340,7 +345,6 @@ a {
 
 
 // Specific texts need dark color.
-.is-course .search--filter-search-submit,
 .is-daycare .search--filter-search-submit {
   color: $gray-darkest;
 }
