@@ -1,4 +1,7 @@
 #ULF Aalborg theme changelog
 
-#v2.5.0
+## 2.5.26
+* Added Piwik script
+
+## v2.5.0
 * Added aalborg theme
