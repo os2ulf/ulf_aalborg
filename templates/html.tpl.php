@@ -56,19 +56,22 @@
     <script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <link rel="stylesheet" href="/profiles/ulf/themes/ulf_default/css/ie9.css" media="all">
     <![endif]-->
-    <!-- Piwik -->
 
+    <!-- Piwik -->
     <script type="text/javascript">
       var _paq = _paq || [];
       _paq.push(["setDomains", ["*.aabenaalborg.dk"]]);
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
-      (function()
-        {     var u="//[aalborgkommune.piwikpro.com/|http://aalborgkommune.piwikpro.com/]";     _paq.push(['setTrackerUrl', u+'piwik.php']);     _paq.push(['setSiteId', 73]);     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);   }
-      )();
+      (function() {
+        var u="//aalborgkommune.piwikpro.com/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 73]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
     </script>
     <noscript><p><img src="//aalborgkommune.piwikpro.com/piwik.php?idsite=73" style="border:0;" alt="" /></p></noscript>
-
     <!-- End Piwik Code -->
   </head>
   <body class="<?php print $classes; ?>">
