@@ -57,22 +57,21 @@
     <link rel="stylesheet" href="/profiles/ulf/themes/ulf_default/css/ie9.css" media="all">
     <![endif]-->
 
-    <!-- Piwik -->
+    <!-- Matomo -->
     <script type="text/javascript">
       var _paq = _paq || [];
-      _paq.push(["setDomains", ["*.aabenaalborg.dk"]]);
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
-        var u="//aalborgkommune.piwikpro.com/";
+        var u="https://webanalytic.aalborg.dk/matomo/";
         _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 73]);
+        _paq.push(['setSiteId', '7']);
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
         g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
       })();
     </script>
-    <noscript><p><img src="//aalborgkommune.piwikpro.com/piwik.php?idsite=73" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
+    <!-- End Matomo Code -->
   </head>
   <body class="<?php print $classes; ?>">
     <?php print $page_top; ?>
