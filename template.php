@@ -8,5 +8,5 @@
  */
 function ulf_aalborg_preprocess_page(&$variables) {
   // Hamburger icon.
-  $variables['hamburger_icon_path'] = 'profiles/ulf/themes/ulf_aalborg';
+  $variables['hamburger_icon_path'] = drupal_get_path('theme',$GLOBALS['theme']);
 }
