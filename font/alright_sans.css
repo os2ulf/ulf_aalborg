@@ -1,0 +1,44 @@
+/**
+ *
+ * Fonts
+ *
+ * http://www.456bereastreet.com/archive/201012/font-face_tip_define_font-weight_and_font-style_to_keep_your_css_simple/
+ * http://stackoverflow.com/questions/28279989/multiple-font-weights-one-font-face-query
+ */
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-RegularItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-Medium.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-MediumItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AlrightSans';
+  src: url("../font/AlrightSans-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic; }
+
+
