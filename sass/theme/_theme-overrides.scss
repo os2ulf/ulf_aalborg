@@ -369,13 +369,13 @@ a {
     width: 100%;
 
     @include breakpoint(650px) {
-      width: 50%;
+      width: 50% !important;
     }
 
     @include breakpoint(1000px) {
       padding-bottom: 2px;
-      padding-right: 2px;
-      width: 50%;
+      padding-right: 2px !important;
+      width: 50% !important;
     }
 
     // Splitting to two blocks per line
@@ -384,8 +384,8 @@ a {
     &:nth-child(5)
     &:nth-child(6) {
       @include breakpoint(650px) {
-        padding-right: 2px;
-        width: 50%;
+        padding-right: 2px !important;
+        width: 50% !important;
       }
     }
 
