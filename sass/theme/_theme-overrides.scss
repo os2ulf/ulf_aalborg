@@ -284,7 +284,8 @@ a {
     }
   }
 
-  &--field_postnummer {
+  &--field_postnummer,
+  &--field_business_type {
   width: 50% !important;
   }
 
