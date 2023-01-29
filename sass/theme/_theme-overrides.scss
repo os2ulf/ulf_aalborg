@@ -276,6 +276,17 @@ a {
     background: rgb(255,255,255);
   }
 
+  @media only screen and (min-width: 1000px) {
+    &--filter-wrapper {
+      padding-bottom: 2px;
+      padding-right: 2px;
+      width: 50%;
+    }
+  }
+
+  &--field_postnummer {
+  width: 50% !important;
+  }
 
   &--filter-search-text[type="text"] {
     border: 1px solid $gray-light;
