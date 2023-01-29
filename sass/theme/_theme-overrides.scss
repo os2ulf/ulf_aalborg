@@ -277,10 +277,11 @@ a {
   }
 
   @media only screen and (min-width: 1000px) {
-    &--filter-wrapper {
+    &--filter-wrapper,
+    &--filter-wrapper:nth-child(3) {
       padding-bottom: 2px;
       padding-right: 2px;
-      width: 50%;
+      width: 50% !important;
     }
   }
 
