@@ -255,6 +255,26 @@ a {
       border-color: $youth-color;
     }
 
+    &.is-internship,
+    &.is-internship .search--filter-dropdown,
+    &.is-internship .search--filter-dropdown-submit,
+    &.is-internship .search--widget-selected,
+    &.is-internship .search--filter-search-submit {
+      @include background-set-color('youth', $transparency: 1);
+
+      border-color: $youth-color;
+    }
+
+    @include breakpoint(1000px) {
+      &.is-internship .search--filter-wrapper {
+        width: 50%;
+
+        &:nth-child(3) {
+          padding-right: 2px;
+        }
+      }
+    }
+
     &.is-course,
     &.is-course .search--filter-dropdown,
     &.is-course .search--filter-dropdown-submit,
@@ -271,24 +291,6 @@ a {
     background: $gray-darker;
   }
 
-
-  &--filter-wrapper-inner {
-    background: rgb(255,255,255);
-  }
-
-  @media only screen and (min-width: 1000px) {
-    &--filter-wrapper,
-    &--filter-wrapper:nth-child(3) {
-      padding-bottom: 2px;
-      padding-right: 2px;
-      width: 50% !important;
-    }
-  }
-
-  &--field_postnummer,
-  &--field_business_type {
-  width: 50% !important;
-  }
 
   &--filter-search-text[type="text"] {
     border: 1px solid $gray-light;
@@ -371,40 +373,6 @@ a {
 .search-results {
   &--result {
     @extend %teaser--wrapper;
-  }
-
-  // Wrapper for each filter
-  &--filter-wrapper {
-    box-sizing: border-box;
-    padding-bottom: 2px;
-    position: relative;
-    z-index: 0;
-    width: 100%;
-
-    @include breakpoint(650px) {
-      width: 50% !important;
-    }
-
-    @include breakpoint(1000px) {
-      padding-bottom: 2px;
-      padding-right: 2px !important;
-      width: 50% !important;
-    }
-
-    // Splitting to two blocks per line
-    &:nth-child(1),
-    &:nth-child(3),
-    &:nth-child(5)
-    &:nth-child(6) {
-      @include breakpoint(650px) {
-        padding-right: 2px !important;
-        width: 50% !important;
-      }
-    }
-
-    &.is-active {
-      z-index: 2;
-    }
   }
 }
 
